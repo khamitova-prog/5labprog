@@ -48,6 +48,7 @@ public class Invocer {
             String responce = this.getCommand().execute(record);
             client.printResult(responce);
 
+
         } while (record.command() != Commands.EXIT);
 
 
